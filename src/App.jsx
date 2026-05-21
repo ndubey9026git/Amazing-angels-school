@@ -116,6 +116,7 @@ function Footer({ setCurrentView }) {
       </div>
       <div className="container footer-bottom">
         <p>&copy; {new Date().getFullYear()} Amazing Angels Public School. All rights reserved.</p>
+        <h5>Managed by Nikhil Dubey</h5>
       </div>
     </footer>
   );
