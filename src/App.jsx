@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import './index.css';
 import logoImg from './assets/logo.png';
 import studentsImg from './assets/students_learning.png';
@@ -555,6 +556,7 @@ function App() {
         {currentView === 'contact' && <Contact />}
       </main>
       <Footer setCurrentView={setCurrentView} />
+      <Analytics />
     </div>
   );
 }
